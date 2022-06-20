@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    font-family:'Bai Jamjuree';
+    .container{
+        .block-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background-image: url(images/bg-header-mobile.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            padding:0 5% ;
+            img{
+                width: 40%;
+                margin: 120px auto 50px auto;
+            }
+            .blck-1{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .text-1{
+                    font-size: 25px;
+                    font-weight: 600;
+                    .everything{
+                        display: block;
+                    }
+                }
+                .sub-text-1{
+                    font-size: 16px;
+                    color:hsl(201, 11%, 66%);
+                    line-height: 1.6em;
+                    padding: 0 2%;
+                }
+            }
+            .buttons-1{
+                display: flex;
+                flex-direction: column;
+                padding-top:20px;
+                width: 90%;
+                gap: 20px;
+                margin: auto;
+                .ios-1{
+                    padding: 10px 0px;
+                    background-color: hsl(171, 66%, 44%);
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 4px solid hsl(171, 94%, 33%);
+                    box-shadow: 4px 14px 16px hsla(171, 62%, 77%, 0.562);
+                    cursor: grab;
+                    border-radius: 20px;
+                    .ios-text-1{
+                        font-family: 'Bai Jamjuree';
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                .ios-1:hover{
+                    opacity: 0.9;
+                }
+                .mac-1{
+                    padding: 12px 0px;
+                    background-color: hsl(233, 100%, 69%);
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    cursor: grab;
+                    border-bottom: 4px solid hsl(233, 82%, 57%);
+                    box-shadow: 4px 14px 16px rgba(128, 128, 128, 0.349);
+                    border-radius: 20px;
+                    .mac-text-1{
+                        font-family: 'Bai Jamjuree';
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                .mac-1:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+        .block-2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5%;
+            gap: 30px;
+            margin-top: 120px;
+            .default{
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                .text-2{
+                    font-size: 22px;
+                    font-weight: 600;
+                    span{
+                        display: block;
+                    }
+                }
+                .sub-text-2{
+                    color: hsl(201, 11%, 66%);
+                    line-height: 1.6em;
+                }
+            }
+            .f-s-t{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                margin-top: 60px;
+                .computer{
+                    width: 100%;                
+                }
+                .fst{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    .first, .second, .third{
+                        display: flex;
+                        flex-direction: column;
+                        gap:10px;
+                        .text-2-1, .text-2-2, .text-2-3{
+                            font-size: 22px;
+                            font-weight: 600;
+                        }
+                        .text-2{
+                            padding: 0 10% ;
+                        }
+                        .text-2-1{
+                            padding-top:30px;
+                        }
+                        .sub-text-2-1, .sub-text-2-2, .sub-text-2-3{
+                            color: hsl(201, 11%, 66%);
+                            line-height: 1.6em;    
+                        }
+                        .sub-text-2{
+                            padding: 0 4%;
+                        }
+                        .sub-text-2-2{
+                            padding:0 4% ;
+                        }
+                    }
+                }
+            }
+        }
+        .block-3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+            padding: 0 5%;
+            margin-top: 190px;
+            .default-1, .block-3-1{
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                .text-3, .text-3-1{
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                .text-3, .text-3-1{
+                    span{
+                        display: block;
+                    }
+                }
+                .sub-text-3, .sub-text-3-1{
+                    color: hsl(201, 11%, 66%);
+                    line-height: 1.6em;
+                    //padding: 0 5%;
+                }
+            }
+            .block-3-1{
+                margin-top:100px;
+            }
+            .img-device{
+                margin-top: 30px;
+                width: 100%;
+            }
+            .sub-3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .block-3-2, .block-3-3, .block-3-4{
+                    display: flex;
+                    flex-direction: column;
+                    gap:10px;
+                    .img-3-2, .img-3-3, .img-3-4{
+                        width: 70px;
+                        margin: auto;
+                        margin-top: 60px;
+                        margin-bottom: 20px;
+                    }
+                    .text-3-2, .text-3-3, .text-3-4{
+                        font-size: 22px;
+                        font-weight: 600;
+                    }
+                    .sub-text-3-2, .sub-text-3-3, .sub-text-3-4{
+                        color: hsl(201, 11%, 66%);
+                        line-height: 1.6em;
+                        //padding: 0 5%;
+                    }
+                    .text-3, .text-3-1{
+                        //padding: 0 10%;
+                    }
+                }
+            }   
+        }
+        .block-4{
+            .images{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                margin-top: 120px;
+            }
+        }
+        .block-5{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 120px;
+            gap: 20px;
+            .text-5{
+                font-size: 24px;
+                font-weight: 600;
+                padding: 0 10%;
+            }
+            .sub-text-5{
+                color: hsl(201, 11%, 66%);
+                line-height: 1.6em;
+                padding: 0 7.5%;
+            }
+            .buttons-2{
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                gap: 20px;
+                margin: auto;
+                padding: 0 5%;
+                .ios-2{
+                    padding: 12px 0px;
+                    background-color: hsl(171, 66%, 44%);
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 4px solid hsl(171, 94%, 33%);
+                    box-shadow: 4px 14px 16px hsla(171, 62%, 77%, 0.562);
+                    cursor: grab;
+                    border-radius: 20px;
+                    .ios-text-2{
+                        font-family: 'Bai Jamjuree';
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                .ios-2:hover{
+                    opacity: 0.9;
+                }
+                .mac-2{
+                    padding: 12px 0px;
+                    background-color: hsl(233, 100%, 69%);
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    cursor: grab;
+                    border-bottom: 4px solid hsl(233, 82%, 57%);
+                    box-shadow: 4px 14px 16px rgba(128, 128, 128, 0.349);
+                    border-radius: 20px;
+                    .mac-text-2{
+                        font-family: 'Bai Jamjuree';
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+                .mac-2:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+        .block-6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top:120px;
+            padding-bottom: 60px;
+            background-color: hsla(202, 11%, 66%, 0.129);
+            .content-6{
+                padding: 30px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                .btlg{
+                    padding:40px 0px 30px 0px;
+                    .bottom-logo{
+                        width: 100px;
+                        margin: auto;
+                    }
+                }
+                .sub-5-1, .sub-5-2, .sub-5-3{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    p{
+                        color:hsl(210, 10%, 33%);
+                    }
+                    p:hover{
+                        cursor: grab;
+                        color: hsl(171, 66%, 44%);
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 35px;
+            }
+        }
+    }
+}
+@media all and (min-width:550px) {
+    body{
+        .container{
+            .block-1{
+                //background-image: url(images/bg-header-desktop.png);
+                //background-size: 100%;
+                .buttons-1{
+                    width:80%;
+                }
+            }
+            .block-5{
+                .buttons-2{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+@media all and (min-width: 750px) {
+    body{
+        .container{
+            .block-1{
+                background-image: url(images/bg-header-desktop.png);
+                background-size: 100%;
+                .img{
+                    width: 220px;
+                }
+                .blck-1{
+                    .text-1{
+                        font-size: 40px;
+                        .everything{
+                            display: inline;
+                        }
+                    }
+                    .sub-text-1{
+                        font-size: 19px;
+                        padding: 0 22%;
+                    }
+                }
+                .buttons-1{
+                    display: flex;
+                    flex-direction: row;
+                    padding-top:20px;
+                    width: 400px;
+                    .ios-1{
+                        width: 100%;
+                    }
+                    .mac-1{
+                        width: 100%;
+                    }
+                }
+            }
+            .block-2{
+                display: flex;
+                flex-direction: column;
+                .default{
+                    .text-2{
+                        font-size: 27px;
+                        span{
+                            display: inline;
+                        }
+                    }
+                    .sub-text-2{
+                        font-size: 17px;
+                        padding: 0 22%;
+                    }
+                }
+                .f-s-t{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 80px;
+                    .computer{
+                        width: 60%;
+                    }
+                    .fst{
+                        .default, .first, .second, .third{
+                            display: flex;
+                            flex-direction: column;
+                            gap:10px;
+                            .text-2, .text-2-1, .text-2-2, .text-2-3{
+                                text-align: left;
+                            }
+                            .sub-text-2, .sub-text-2-1, .sub-text-2-2, .sub-text-2-3{
+                                text-align: left;
+                                padding-right: 15%;    
+                            }
+                            .sub-text-2-2{
+                                padding:0 ;
+                                padding-right: 18%;
+                            }
+                        }
+                    }
+                }
+            }
+            .block-3{
+                .default-1, .block-3-1{
+                    .text-3, .text-3-1{
+                        span{
+                            display: inline;
+                        }
+                    }
+                    .sub-text-3{
+                        padding: 0 10%;
+                    }
+                    .sub-text-3-1{
+                        padding: 0;
+                    }
+                }
+                .img-device{
+                    width: 60%;
+                }
+                .sub-3{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: baseline;
+                    width: 100%;
+                    gap: 5%;
+                    justify-content: space space-between;
+                    .block-3-2, .block-3-3, .block-3-4{
+                        width:26%;
+                        .sub-text-3-2, .sub-text-3-3, .sub-text-3-4{
+                            padding: 0;
+                        }
+                        .sub-text-3-2{
+                            
+                        }
+                        .text-3, .text-3-1{
+                            padding: 0 10%;
+                        }
+                    }
+                }   
+            }
+            .block-4{
+                padding: 0 5%;
+                .images{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2%;
+                    justify-content: space-between;
+                    div{
+                        .img-img{
+                            width:120px; 
+                        }
+                    }
+                }
+            }
+            .block-5{
+                .sub-text-5{
+                    padding: 0 27%;
+                }
+                .buttons-2{
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    padding-top:20px;
+                    width: 400px;
+                    .ios-2{
+                        width: 100%;
+                    }
+                    .mac-2{
+                        width: 100%;
+                    }
+                }
+            }
+            .block-6{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                gap: unset;
+                .content-6{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    text-align: left;
+                    gap: 40px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:830px) {
+    body{
+        .container{
+            .block-4{
+                .images{
+                    div{
+                        .img-img{
+                            width:135px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
